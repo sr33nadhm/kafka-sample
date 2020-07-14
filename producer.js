@@ -8,7 +8,8 @@ try {
   let topics = [
     {
       topic: kafka_topic,
-      messages: "This message is sent from nodeJS at " + Date(Date.now()),
+      messages: "This message is sent at " + Date(Date.now()),
+      key: "nodeJS",
     },
   ];
 
